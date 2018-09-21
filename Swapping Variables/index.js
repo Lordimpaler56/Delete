@@ -1,9 +1,10 @@
 let firstName = "Logan";
 let lastName = "Cuthbertson";
 
-let firstName = "Cuthbertson";
-let lastName = "Logan";
+let memory = firstName;
+firstName = lastName;
+lastName = memory;
 
 //print variables to console
-console.log(firstName);
-console.log(lastName);
+console.log("My first name is: " + firstName);
+console.log("My last name is: " + lastName);
