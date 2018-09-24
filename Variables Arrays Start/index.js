@@ -1,42 +1,11 @@
-console.log('Hello World');
+let LoganCuthbertson = [];
 
-let LoganCuthbertson : {=
-  firstName : "Logan",
-  middleName : "Cael",
-  lastName : "Cuthbertson",
-  age : 16,
-  height : "6 Feet",
-  eyeColour : "Light Blue",
-  hair : "Curly",
-  hairColour : "Brown",
-  favouriteFood : "Lasagna",
-  favouriteHobby : "Videogames",
-  favouriteBook : null,
-  male : true,
-}
+//firstName, middleName, lastName, height, age, eyeColour, hair, hairColour, favouriteFood, favouriteHobby, favouriteBook, male
+LoganCuthbertson = ["Logan", "Cael", "Cuthbertson", 16, "6 feet", "Light Blue", "Curly", "Brown", "Lasagna", "Videogames", null, true];
 
-
-let LoganCuthbertson : {=
-  firstName : "Logan",
-  middleName : "Cael",
-  lastName : "Cuthbertson",
-  age : 16,
-  height : "6 Feet",
-  eyeColour : "Light Blue",
-  hair : "Curly",
-  hairColour : "Brown",
-  favouriteFood : "Lasagna",
-  favouriteHobby : "Videogames",
-  favouriteBook : null,
-  male : true,
-}
-
-//debug with typeOf
-
-//print variables to console
+//print out first names only
+console.log("Last name is" + LoganCuthbertson[2]);
 
 //printing out entire object
+LoganCuthbertson [1]="Is Awesome";
 console.log(LoganCuthbertson);
-console.log(LoganCuthbertson.firstName);
-
-//console.log("Am I male? " + male);
