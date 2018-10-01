@@ -12,11 +12,24 @@ function simpleOperators (numberA, numberB){
 function skipCounting (skipCount, times, startingNumber){
   let number = startingNumber - skipCount;
   for (let i=1; i<=times; i++){
-    number += skipCount;
-    console.log(number);
+  console.log(number);
+  number += 5;
+
   }
 }
-let number = [4, 7, 13, 99];
-simpleOperators (number[0], number[1]);
-simpleOperators (number[2], number[3]);
-skipCounting(3, 6, 113);
+
+function howManyTimes (numberStart, numberEnd, skipCount) {
+while (numberStart < numberEnd) {
+console.log(numberStart);
+numberStart += skipCount;
+ }
+}
+//Breaks while loop into zero loop
+console.log(1 == 1);
+console.log('1' == 1);
+console.log('1' === 1);
+
+let number = [4, 7, 13, 99, 0, 100, 5];
+//simpleOperators (number[2], number[3]);
+//skipCounting(3, 6, 113);
+howManyTimes (0, 100, 5)
