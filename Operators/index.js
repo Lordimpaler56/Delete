@@ -30,7 +30,7 @@ function LooseEquality (firstOperand, secondOperant) { //Changes the second oper
 }
 
 function StrictEquality (firstOperand, secondOperant) {
-  console.log(firstOperand === secondOperant);
+  console.log(firstOperand === secondOperand);
 }
 
 function notEqual(valueArray, ){
@@ -57,7 +57,7 @@ else {console.log("5 is at the index", i); i=number.length} //once we stop, we w
 
 
 //Using falsy preferences
-let userColor = 'red'; //User not defined yet
-let defaultColor = 'blue'; //default colour chosen by developer
-let currentColor = userColor || defaultColor
-console.log(currentColor); //returns 'blue'
+//let userColor = 'red'; //User not defined yet
+//let defaultColor = 'blue'; //default colour chosen by developer
+//let currentColor = userColor || defaultColor
+//console.log(currentColor); //returns 'blue'
